@@ -21,12 +21,12 @@
   <string name="cancel">Cancelar</string>
   <string name="ok">Ok</string>
   <string name="unknown">Desconocido</string>
-  <string name="license_invalid">Gracias por comprar la aplicación de donación! Desafortunadamente la verificación de licencia falló. Por favor intenta nuevamente más tarde. Si todavía no está funcionando, por favor ponte en contacto conmigo. Necesitas acceso a internet!</string>
-  <string name="pirated">Parece que la aplicación de la donación no fue adquirida a través de Play Store! Si lo piratea, entonces la vergüenza en usted!</string>
+  <string name="license_invalid">Gracias por comprar la aplicación de donación! Desafortunadamente la verificación de licencia falló. Por favor intenta nuevamente más tarde. Si todavía no está funcionando, por favor ponte en contacto conmigo. ¡Necesitas acceso a internet!</string>
+  <string name="pirated">¡Parece que la aplicación de la donación no fue adquirida a través de Play Store! Si lo piratea, ¡entonces le dará vergüenza!</string>
   <string name="donate">Donar</string>
-  <string name="donate_summary">Esta función sólo está disponible cuando se instala la app de donación! No te preocupes, esta aplicación es de código abierto fácilmente puede construirlo usted mismo y quitar esta comprobación. Pero espero que usted apoya a los desarrolladores de todos modos. Gracias por usar Kernel Adiutor! Una vez que compraste la aplicación donación que tienes que reiniciar Adiutor Kernel para habilitar todas las funciones.</string>
-  <string name="donate_nope">No hay donacion!</string>
-  <string name="donate_yes">Gracias por su donativo!</string>
+  <string name="donate_summary">¡Esta función sólo está disponible cuando se instala la app de donación! No te preocupes, esta aplicación es de código abierto fácilmente puede construirlo usted mismo y quitar esta comprobación. Pero espero que usted apoya a los desarrolladores de todos modos. ¡Gracias por usar Kernel Adiutor! Una vez que compraste la aplicación donación que tienes que reiniciar Adiutor Kernel para habilitar todas las funciones.</string>
+  <string name="donate_nope">¡No hay donacion!</string>
+  <string name="donate_yes">¡Gracias por su donativo!</string>
   <string name="ad_here">Su publicidad podría estar aquí</string>
   <string name="remove_ad">Eliminar anuncios</string>
   <string name="warning">Advertencia</string>
@@ -135,7 +135,7 @@
   <string name="cores_singular">%d núcleo</string>
   <string name="cores">%d núcleos</string>
   <string name="cpu_usage">Uso del CPU</string>
-  <string name="no_offline_core">No se puede desactivar este núcleo!</string>
+  <string name="no_offline_core">¡No se puede desactivar este núcleo!</string>
   <string name="cpu_max_freq">Frecuencia máxima del CPU</string>
   <string name="cpu_max_freq_summary">Establecer la frecuencia máxima del CPU.</string>
   <string name="cpu_min_freq">Frecuencia mínima del CPU</string>
@@ -211,7 +211,7 @@
   <string name="busCam_volt_title">Display Voltage Control</string>
   <string name="busCam_volt_summary">Voltage supplied to the ISP power plane</string>
   <!-- CPU Hotplug -->
-  <string name="hotplug_warning">Más de un sistema de hotplugging activado!\nPor favor solo use uno.</string>
+  <string name="hotplug_warning">¡Más de un sistema de hotplugging activado!\nPor favor solo use uno.</string>
   <string name="mpdecision">MPDecision</string>
   <string name="mpdecision_summary">Solución hotplugging de Qualcomm. Podrías tener problemas con el cambio de frecuencias cuando esta opción está activada.</string>
   <string name="intelliplug">IntelliPlug</string>
@@ -430,7 +430,7 @@
   <string name="gpu_voltage">Control Voltaje GPU</string>
   <string name="gpu_volts">Voltages GPU</string>
   <string name="gpu_throttling">GPU Thermal Control</string>
-  <string name="gpu_throttling_summary">Puede controlar el mecanismo de throttling de temperatura de la GPU, hagalo bajo su PROPIO RIESGO!</string>
+  <string name="gpu_throttling_summary">Puede controlar el mecanismo de throttling de temperatura de la GPU, ¡hágalo bajo su PROPIO RIESGO!</string>
   <string name="gpu_tmu">GPU Thermal Manager</string>
   <string name="gpu_tmu_summary">Deshabilitalo bajo tu responsabilidad.</string>
   <string name="gpu_throttling1">GPU LEVEL 1 Throttling Freq</string>
@@ -584,7 +584,7 @@
   <string name="microphone_gain">Ganancia del Micrófono</string>
   <string name="volume_gain">Ganancia de Volumen</string>
   <string name="moro_sound_control">MoRo Sound Control</string>
-  <string name="moro_sound_summary">Puede ajustar la ganancia de auriculares y altavoz.\nHAGALO CON PRECAUCION!, un volumen excesivo puede dañar sus oidos o el altavoz.</string>
+  <string name="moro_sound_summary">Puede ajustar la ganancia de auriculares y altavoz.\n¡HÁGALO CON PRECAUCIÓN!, un volumen excesivo puede dañar sus oidos o el altavoz.</string>
   <string name="earpiece_gain">Ganancia Auricular</string>
   <string name="earpiece_gain_summary">Necesita el mod DualSpeaker</string>
   <string name="arizona_sound_sw">Control Principal</string>
@@ -828,7 +828,7 @@
   <string name="zram_lzo">lzo</string>
   <string name="zram_lz4">lz4</string>
   <string name="zram_deflate">deflate</string>
-  <string name="zram_none">Algoritmo de compresión desconocido o ZRAM no soportada!</string>
+  <string name="zram_none">¡Algoritmo de compresión desconocido o ZRAM no soportada!</string>
   <!-- Entropy -->
   <string name="available">Disponible</string>
   <string name="poolsize">Tamaño del Pool</string>
@@ -903,7 +903,7 @@
   <string name="import_item">Importar</string>
   <string name="control_switch">Interruptor</string>
   <string name="control_seekbar">Barra de ajuste</string>
-  <string name="title">Tutilo</string>
+  <string name="title">Título</string>
   <string name="description">Descripción</string>
   <string name="applying">Aplicando</string>
   <string name="switch_enabled_summary">Si el interruptor está activado. Devuelve 1 para activado y 0 para desactivado.</string>
@@ -918,20 +918,20 @@
   <string name="generic_value_summary">Valor actual del editor. Puede ser básicamente cualquier cosa.</string>
   <string name="generic_apply_summary">El editor devolverá lo que sea que se halla introducido.</string>
   <string name="required">requerido</string>
-  <string name="hit_test">Usted tiene que realizar la prueba primero!</string>
+  <string name="hit_test">¡Usted tiene que realizar la prueba primero!</string>
   <string name="output">Salida</string>
   <string name="edit">Editar</string>
   <string name="export">Exportar</string>
   <string name="delete">Borrar</string>
   <string name="sure_question">¿Está usted seguro?</string>
   <string name="name">Nombre</string>
-  <string name="already_exists">%s ya existe!</string>
+  <string name="already_exists">¡ %s ya existe!</string>
   <string name="exported_item">%1$s se ha exportado a %2$s</string>
-  <string name="name_empty">El nombre está vacío!</string>
-  <string name="import_malformed">Archivo de importación incorrecto!</string>
-  <string name="import_wrong_version">La versión del archivo importado es muy vieja!</string>
+  <string name="name_empty">¡El nombre está vacío!</string>
+  <string name="import_malformed">¡Archivo de importación incorrecto!</string>
+  <string name="import_wrong_version">¡La versión del archivo importado es muy vieja!</string>
   <!-- Downloads -->
-  <string name="downloads_error">No se encontro ningún kernel compatible! Por favor, compruebe su acceso a internet.</string>
+  <string name="downloads_error">¡No se encontro ningún kernel compatible! Por favor, compruebe su acceso a internet.</string>
   <string name="download_error">Error al descargar %s.</string>
   <string name="downloading_counting">%1$s/%2$s</string>
   <string name="check_md5">Comprobación md5</string>
@@ -956,11 +956,11 @@
   <string name="items_count">Elementos %s</string>
   <string name="key">Clave</string>
   <string name="value">Valor</string>
-  <string name="key_empty">El campo no puede estar vacío!</string>
+  <string name="key_empty">¡El campo no puede estar vacío!</string>
   <!-- Profile -->
   <string name="apply_on_boot_not_available">En modo perfiles los cambios no tienen un impacto en aplicar en el arranque.</string>
-  <string name="profile_warning">Todo lo que cambias aquí va a guardar en tu perfil. Pero atención! Tu configuración también sera aplicada, pero no se salva para aplicar en el arranque.</string>
-  <string name="no_changes">No se ha realizado ningún cambio!</string>
+  <string name="profile_warning">Todo lo que cambias aquí va a guardar en tu perfil.¡Pero atención! Tu configuración también sera aplicada, pero no se salva para aplicar en el arranque.</string>
+  <string name="no_changes">¡No se ha realizado ningún cambio!</string>
   <string name="apply_question">¿Aplicar %s?</string>
   <string name="append">Añadir</string>
   <string name="details">Detalles</string>
@@ -972,9 +972,9 @@
   <string name="profile_tile">Mosaico del perfil</string>
   <string name="profile_tile_summary">Muestran un mosaico que le permite seleccionar un perfil.</string>
   <string name="profile_select">Seleccionar perfil</string>
-  <string name="applying_profile">Aplicando %s!</string>
-  <string name="no_profiles">Ningún perfil encontrado! Usted tiene que crearlas primero.</string>
-  <string name="sections_disabled">Todas las secciones desactivadas! No hay perfiles para usted.</string>
+  <string name="applying_profile">¡Aplicando %s!</string>
+  <string name="no_profiles">¡Ningún perfil encontrado! Usted tiene que crearlas primero.</string>
+  <string name="sections_disabled">¡Todas las secciones desactivadas! No hay perfiles para usted.</string>
   <string name="new_mode">Nuevo</string>
   <string name="current_settings">Ajustes actuales</string>
   <string name="select_all">Selecionar todos</string>
@@ -989,7 +989,7 @@
   <string name="wipe_data">Wipe Data</string>
   <string name="wipe_cache">Wipe caché</string>
   <string name="flash_zip">Flashear Zip</string>
-  <string name="add_action_first">Tienes que añadir acciones primero!</string>
+  <string name="add_action_first">¡Tienes que añadir acciones primero!</string>
   <string name="flash_now_confirm">Quieres ejecutar estas acciones? Tu dispositivo se reiniciará en modo Recovery y las acciones se ejecutarán en el orden en el que las añadiste.</string>
   <!-- Init.d -->
   <string name="emulate_initd">Emular init.d</string>
@@ -1035,9 +1035,9 @@
   <string name="fifty_sec">50 segundos</string>
   <string name="apply_on_boot_test_summary">Probar aplicar en el arranque. Esto incluye todo tipo de cosas que se aplican durante el arranque, como controles personalizados, init.d, perfiles, etc.</string>
   <string name="apply_on_boot_running">El servicio de aplicar en el arranque ya se está ejecutando. Por favor, espere hasta que termine.</string>
-  <string name="nothing_apply">Nada encontrado para aplicar!</string>
+  <string name="nothing_apply">¡Nada encontrado para aplicar!</string>
   <string name="hide">Ocultar</string>
-  <string name="apply_on_boot_hide_summary">Ocultar la notificación de la aplicación en el arranque. El tiempo de retraso permanecerá!</string>
+  <string name="apply_on_boot_hide_summary">Ocultar la notificación de la aplicación en el arranque. ¡El tiempo de retraso permanecerá!</string>
   <string name="toast">Notificación emergente</string>
   <string name="apply_on_boot_toast_summary">Mostrar notificación emergente cuando los ajustes hallan sido aplicados.</string>
   <string name="confirmation_notification">Notificación de la confirmación</string>
@@ -1072,7 +1072,7 @@
   <string name="donation_summary_mg">Hola, MTweaks v2 es una aplicación que tiene como base \"Kernel Adiutor\" de Willi Ye, aka Grarak.\n\nLleva varias modificaciones y ajustes nuevos, especialente dirigidos para los ultimos Samsung Galaxy.\n\nEsto lo hago porque me divierte y me gusta compartir mi trabajo, por eso es gratis y no lleva publicidad.\n\nAunque si te ha gustado el trabajo que he realizado y quieres donar algo e invitarme a una cerveza, como se suele decir, puedes hacerlo en el siguiente enlace de Paypal.</string>
   <!-- Contributors -->
   <string name="commits">%d cambios</string>
-  <string name="no_internet">Por favor, compruebe su conexión a internet!</string>
+  <string name="no_internet">¡Por favor, compruebe su conexión a internet!</string>
   <!-- Help -->
   <string name="misspelled">¿Por qué se escribe incorrectamente \"Adiutor\"?</string>
   <string name="misspelled_summary">Adiutor en latín significa ayudar.</string>
@@ -1081,7 +1081,7 @@
   <string name="cpu_freq_not_sticking">¿Por que mi frecuencia predeterminada no se guarda?</string>
   <string name="cpu_freq_not_sticking_summary">Esto podría ser debido a muchas razones. Muchos núcleos hoy en día tienen su propio sistema de hotplugging que controla la frecuencia de la CPU y CyanogenMod tiene su propia aplicación de CPU Boost que regulan la frecuencia. Le sugiero no toque las frecuencias de CPU y que el núcleo haga su trabajo. Esto cuenta también para otras funciones. Si no se peguen, es porque no quiere que el sistema de núcleo para que pueda cambiar.</string>
   <string name="feature_not_appearing">¿Por qué las características x e y no se muestran?</string>
-  <string name="feature_not_appearing_summary">Se muestran sólo las funciones que son compatibles con su dispositivo!</string>
+  <string name="feature_not_appearing_summary">¡Se muestran sólo las funciones que son compatibles con su dispositivo!</string>
   <string name="feature_function">¿Que hace la característica x?</string>
   <string name="feature_function_summary">Si no sabe lo que hace este control, entonces simplemente no lo toques. Por favor, investiga antes de modificar una característica de su caro equipo.</string>
   <string name="add_new_features">¿Podría añadir la característica x e y?</string>
@@ -1098,6 +1098,6 @@
   <string name="appupdater_btn_update">Actualizar</string>
   <string name="appupdater_btn_disable">No mostrar\n de nuevo</string>
   <string name="appupdater_btn_dismiss">Cancelar</string>
-  <string name="appupdater_download_filed">Descarga FALLIDA!</string>
+  <string name="appupdater_download_filed">¡Descarga FALLIDA!</string>
   <string name="appupdater_downloading_file">Descargando</string>
 </resources>
